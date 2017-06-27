@@ -6,7 +6,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages={"com.example.kafkademo"})
+@ComponentScan(basePackages={"com.example.kafkademo", "com.example.executor"})
 
 public class KafkademoApplication {
 	
